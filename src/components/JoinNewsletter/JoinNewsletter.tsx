@@ -10,8 +10,7 @@ const JoinNewsletter: FC<Props> = ({isMobile}) => {
       {isMobile ? (
       <div className="bg-main-brasa-green mt-8 mx-4 rounded-3xl h-auto flex flex-col items-center">
         <h1 className=" font-semi-bold text-white text-2xl justify-start pt-12">Join our newsletter!</h1>
-        <h2 className="font-medium text-center text-white text-sm mt-4 px-4 pb-8"> Lorem ipsum dolor sit amet, consectetur 
-        adipiscing elit, sed do eiusmod tempor </h2>
+        <h2 className="font-medium text-center text-white text-sm mt-4 px-4 pb-8">Stay updated with latest news and keep up with events!</h2>
 
         <form className="flex flex-container overflow-hidden mb-6">
           <input type="email" id="email" placeholder={"Enter your email address"} className="text-xs order-first pl-8 bg-white 
@@ -22,9 +21,8 @@ const JoinNewsletter: FC<Props> = ({isMobile}) => {
       ) : (
         <div className="bg-main-brasa-green m-28 mt-8 rounded-[3rem] h-[22rem] flex flex-col items-center">
         <h1 className=" font-semi-bold text-white text-6xl justify-start pt-16"> Join our newsletter!</h1>
-        <h2 className="font-medium text-white text-sm mt-4"> Lorem ipsum dolor sit amet, consectetur 
-        adipiscing</h2>
-        <h2 className="font-medium text-white text-sm mb-12"> elit, sed do eiusmod tempor </h2>
+        <h2 className="font-medium text-white text-sm mt-4"> Stay updated with latest news and keep up with events!</h2>
+        <h2 className="font-medium text-white text-sm mb-12"></h2>
 
         <form className="flex flex-container overflow-hidden">
           <input type="email" id="email" placeholder={"Enter your email address"} className="text-xs order-first pl-8 bg-white rounded-full h-[3.5rem] w-[24rem] 
